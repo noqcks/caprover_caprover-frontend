@@ -71,7 +71,7 @@ interface RootPageInterface extends RouteComponentProps<any> {
 }
 
 class PageRoot extends ApiComponent<
-    RootPageInterface,
+    RootPageInterface & RouteComponentProps,
     {
         versionInfo: IVersionInfo | undefined
         collapsed: boolean
