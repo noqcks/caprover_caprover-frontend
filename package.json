@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@craco/craco": "^6.4.5",
+        "@craco/craco": "^7.1.0",
         "antd": "^4.16.10",
         "axios": "^0.21.1",
         "classnames": "^2.2.6",
