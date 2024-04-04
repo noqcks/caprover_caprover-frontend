@@ -41,7 +41,7 @@ const MainComponent = () => {
             <HashRouter>
                 <Switch>
                     <Route path="/login/" element={<Login />} />
-                    <Route path="/" component={PageRoot} />
+                    <Route path="/" element={<PageRoot />} />
                 </Switch>
             </HashRouter>
         </div>
