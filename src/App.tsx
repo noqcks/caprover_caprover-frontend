@@ -5,7 +5,7 @@ import {
     useThemeSwitcher,
 } from 'react-css-theme-switcher'
 import { Provider } from 'react-redux'
-import { HashRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import { applyMiddleware, createStore } from 'redux'
 import thunk from 'redux-thunk'
 import Login from './containers/Login'
