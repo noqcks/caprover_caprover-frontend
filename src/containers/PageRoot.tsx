@@ -100,7 +100,7 @@ class PageRoot extends ApiComponent<
     componentDidUpdate(prevProps: any) {
         // Typical usage (don't forget to compare props):
         if (
-            this.props.location.pathname !== prevProps.location.pathname &&
+            this.props.router.location.pathname !== prevProps.router.location.pathname &&
             this.props.isMobile
         ) {
             this.setState({ collapsed: true })
