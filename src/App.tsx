@@ -7,7 +7,7 @@ import {
 import { Provider } from 'react-redux'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import { applyMiddleware, createStore } from 'redux'
-import thunk from 'redux-thunk'
+import { thunk } from 'redux-thunk'
 import Login from './containers/Login'
 import PageRoot from './containers/PageRoot'
 import reducers from './redux/reducers'
