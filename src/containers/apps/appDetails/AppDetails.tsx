@@ -90,7 +90,7 @@ class AppDetails extends ApiComponent<
     }
 
     goBackToApps() {
-        this.props.history.push('/apps')
+        this.props.navigate('/apps')
     }
 
     openRenameAppDialog() {
