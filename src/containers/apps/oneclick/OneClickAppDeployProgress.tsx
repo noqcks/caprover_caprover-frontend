@@ -2,7 +2,7 @@ import { LoadingOutlined } from '@ant-design/icons'
 import { Alert, Button, Card, Col, Row, Steps } from 'antd'
 import React, { Component } from 'react'
 import ReactMarkdown from 'react-markdown'
-import { Prompt } from 'react-router-dom'
+import { usePrompt } from 'react-router-dom'
 import { IDeploymentState } from './OneClickAppDeployManager'
 
 const Step = Steps.Step
