@@ -40,7 +40,7 @@ const MainComponent = () => {
         <div className="full-screen">
             <HashRouter>
                 <Switch>
-                    <Route path="/login/" component={Login} />
+                    <Route path="/login/" element={<Login />} />
                     <Route path="/" component={PageRoot} />
                 </Switch>
             </HashRouter>
